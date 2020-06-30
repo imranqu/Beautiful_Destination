@@ -1,0 +1,10 @@
+{% load bootstarp3 %}
+
+
+<div class="container">
+    <form method="POST">
+    <h1>Register</h1>
+    {% csrf_token %}
+    {% bootstarp_form form %}
+    <input="submit" value="Submit">
+</div>
