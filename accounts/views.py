@@ -4,6 +4,7 @@ from django.views.generic import CreateView
 from django.urls import reverse_lazy
 from .forms import RegisterForm
 
+
 # Create your views here.
 class register(CreateView):
     print(RegisterForm)
